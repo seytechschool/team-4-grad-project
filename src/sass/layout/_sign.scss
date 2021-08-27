@@ -1,0 +1,12 @@
+.sign {
+    min-height: 334px;
+    padding: 90px 0;
+    background: url('../img/bg-ocean.jpg') center (center/cover) no-repeat;
+    &__title {
+        margin: 0 0 24px 0;
+        font-size: 32px;
+    }
+    &__form {
+        margin-top: 0;
+    }
+}

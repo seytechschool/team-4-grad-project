@@ -1,0 +1,326 @@
+@media (max-width: 1578px) {
+    .showcase {
+        &__content {
+            padding: 150px;
+        }
+    }
+}
+
+@media (max-width: 1384px) {
+    .showcase {
+        &__content {
+            padding: 100px;
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 992px;
+    }
+    .features {
+        &__item {
+            width: 29%;
+        }
+        &__icon {
+            margin-bottom: 18px;
+            i {
+                font-size: 62px;
+            }
+        }
+        &__title {
+            font-size: 23px;
+        }
+        &__desc {
+            font-size: 16px;
+        }
+    }
+    .showcase {
+        &__content {
+            padding: 54px;
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 760px;
+    }
+    .header {
+        min-height: 520px;
+    }
+    .build {
+        margin: 100px 0;
+        &__title {
+            font-size: 38px;
+        }
+    }
+    .features {
+        padding: 90px 0;
+        &__item {
+            width: 29%;
+        }
+        &__icon {
+            margin-bottom: 18px;
+            i {
+                font-size: 62px;
+            }
+        }
+        &__title {
+            font-size: 23px;
+        }
+        &__desc {
+            font-size: 16px;
+        }
+    }
+    .showcase {
+        &__content {
+            padding: 20px;
+        }
+        &__title {
+            font-size: 26px;
+        }
+        &__desc {
+            font-size: 18px;
+        }
+    }
+    .testimonials {
+        min-height: 500px;
+        padding: 80px 0;
+        &__img {
+            max-width: 160px;
+        }
+        &__name {
+            font-size: 19px;
+        }
+        &__desc {
+            font-size: 15px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        max-width: 576px;
+    }
+    .header {
+        min-height: 476px;
+    }
+    .nav {
+        &__link {
+            &--sign {
+                padding: 4px 10px;
+            }
+        }
+    }
+    .build {
+        margin: 100px 0;
+        &__title {
+            font-size: 28px;
+        }
+    }
+    .form {
+        flex-wrap: wrap;
+        &__email {
+            width: 90%;
+            min-height: 48px;
+            margin-bottom: 10px;
+        }
+        &__btn {
+            width: 90%;
+            margin-left: 0;
+        }
+    }
+    .features {
+        &__list {
+            flex-wrap: wrap;
+        }
+        &__item {
+            width: 100%;
+            margin-bottom: 50px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+        &__icon {
+            margin-bottom: 28px;
+            i {
+                font-size: 72px;
+            }
+        }
+        &__title {
+            font-size: 28px;
+        }
+        &__desc {
+            max-width: 60%;
+            margin: 0 auto;
+            font-size: 20px;
+        }
+    }
+    .showcase {
+        &__item {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+        }
+        &__content {
+            max-width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        &__title {
+            font-size: 32px;
+        }
+        &__desc {
+            font-size: 20px;
+        }
+        &__img {
+            width: 100%;
+        }
+        .img2 {
+            order: 2;
+        }
+    }
+    .testimonials {
+        &__list {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        &__item {
+            max-width: 100%;
+            margin-bottom: 38px;
+        }
+        &__img {
+            max-width: 160px;
+        }
+        &__name {
+            font-size: 20px;
+        }
+        &__desc {
+            font-size: 16px;
+            max-width: 65%;
+            margin: 0 auto;
+        }
+    }
+    .footer {
+        &__content {
+            flex-direction: column;
+            max-width: 540px;
+        }
+        &__rights {
+            margin: 10px 0 20px;
+            display: block;
+            text-align: center;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .nav__link--sign:hover,
+    .form__btn:hover {
+        background-color: #007bff;
+        border-color: transparent;
+    }
+    .features {
+        padding: 70px 0;
+        &__title {
+            font-size: 26px;
+        }
+        &__desc {
+            font-size: 18px;
+        }
+    }
+    .showcase {
+        &__content {
+            max-width: 95%;
+            padding: 14px;
+        }
+        &__title {
+            font-size: 28px;
+        }
+        &__desc {
+            font-size: 18px;
+        }
+    }
+}
+
+@media (max-width: 390px) {
+    .header {
+        min-height: 450px;
+    }
+    .build {
+        margin: 60px 0;
+        &__title {
+            font-size: 26px;
+        }
+    }
+    .features {
+        padding: 50px 0;
+        &__item {
+            margin-bottom: 42px;
+        }
+        &__title {
+            font-size: 24px;
+        }
+        &__desc {
+            font-size: 14px;
+        }
+    }
+    .showcase {
+        &__title {
+            font-size: 23px;
+        }
+    }
+    .testimonials {
+        padding: 50px 0 0 0;
+        &__title {
+            font-size: 26px;
+        }
+    }
+    .sign__title {
+        font-size: 30px;
+    }
+    .footer {
+        padding: 44px 0;
+        &__item {
+            font-size: 14px;
+            margin-right: 2px;
+        }
+        &__link::after {
+            margin-left: 2px;
+        }
+        &__social--link i {
+            font-size: 28px;
+        }
+    }
+}
+
+@media (max-width: 320px) {
+    .header {
+        min-height: 420px;
+    }
+    .build {
+        &__title {
+            font-size: 26px;
+        }
+    }
+    .features {
+        &__desc {
+            max-width: 70%
+        }
+    }
+    .showcase {
+        &__content {
+            padding: 10px;
+        }
+        &__title {
+            font-size: 22px;
+        }
+        &__desc {
+            font-size: 15px;
+        }
+    }
+    .sign__title {
+        font-size: 28px;
+    }
+}

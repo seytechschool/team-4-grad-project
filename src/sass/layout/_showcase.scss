@@ -1,0 +1,39 @@
+.showcase {
+    &__list {
+        width: 100%;
+    }
+    &__item {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        margin: 0 auto;
+    }
+    &__content {
+        max-width: 50%;
+        padding: 206px;
+    }
+    &__title {
+        margin: 0 0 10px 0;
+        font-family: Nunito;
+        font-size: 32px;
+        font-weight: 700;
+        color: $secondary-color;
+    }
+    &__desc {
+        font-family: Nunito;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 1.5;
+        color: $secondary-color;
+    }
+    &__img {
+        display: block;
+        width: 50%;
+    }
+    .img1 {
+        order: 2;
+    }
+    .img3 {
+        order: 2;
+    }
+}

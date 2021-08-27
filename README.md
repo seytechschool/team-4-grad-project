@@ -4,7 +4,7 @@
 
 ## Live Demo
 
-Quick preview: <https://seytechschool.github.io/team-4-grad-project/>
+Quick preview: 
 
 ## Best team members
 
@@ -18,6 +18,11 @@ Quick preview: <https://seytechschool.github.io/team-4-grad-project/>
 ## What tools we used
 
 - Semantic HTML.
-- Css
+- SCSS
 - Flexbox
 - Responsive
+
+## We have two folders
+
+1. dist - inside optimized compressed code
+2. src - inside unoptimized & uncompressed working draft code

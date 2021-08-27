@@ -1,0 +1,36 @@
+.features {
+    min-height: 453px;
+    padding: 172px 0;
+    background-color: rgb(248, 249, 250);
+    &__list {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        width: 320px;
+        text-align: center;
+    }
+    &__icon {
+        margin-bottom: 28px;
+        i {
+            font-size: 72px;
+            color: #3378e0;
+            &:hover {
+                font-size: 74px;
+            }
+        }
+    }
+    &__title {
+        margin: 0 0 8px 0;
+        font-size: 28px;
+        font-weight: 700;
+        color: $secondary-color;
+    }
+    &__desc {
+        margin: 0;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 24px;
+        color: $secondary-color;
+    }
+}

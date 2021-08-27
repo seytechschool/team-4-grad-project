@@ -1,0 +1,67 @@
+.header {
+    min-height: 595px;
+    background: url('../img/bg-ocean.jpg') center (center/cover) no-repeat;
+    &__nav {
+        background-color: #f8f9fa;
+    }
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 16px;
+    &__link {
+        font-size: 20px;
+        color: rgba(0, 0, 0, .9);
+        &--sign {
+            padding: 6px 12px;
+            @include btn-reset;
+            &:hover {
+                @include btn-hover;
+            }
+        }
+    }
+}
+
+.build {
+    margin: 192px 0;
+    text-align: center;
+    &__title {
+        max-width: 878px;
+        font-size: 48px;
+        line-height: 1.2;
+    }
+}
+
+.title {
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 700;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 48px;
+    &__email {
+        width: 473px;
+        padding: 8px 16px;
+        color: #495057;
+        background-color: #fff;
+        border: 1px solid #ced4da;
+        border-radius: 4px;
+    }
+    &__btn {
+        width: 150px;
+        height: 48px;
+        margin-left: 8px;
+        padding: 8px 16px;
+        @include btn-reset;
+        &:hover {
+            @include btn-hover;
+        }
+    }
+}

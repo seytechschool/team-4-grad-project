@@ -1,0 +1,38 @@
+.testimonials {
+    min-height: 595px;
+    padding: 112px 0;
+    background-color: #f8f9fa;
+    &__title {
+        margin: 0 0 48px 0;
+        text-align: center;
+        font-size: 32px;
+        font-weight: 700;
+        color: $secondary-color;
+    }
+    &__list {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        max-width: 28%;
+        text-align: center;
+        color: $secondary-color;
+    }
+    &__img {
+        display: block;
+        max-width: 192px;
+        margin: 0 auto;
+        border-radius: 100%;
+        box-shadow: 0 5px 5px 0 #adb5bd;
+    }
+    &__name {
+        margin: 10px 0 8px 0;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    &__desc {
+        margin: 0;
+        font-size: 16px;
+        font-weight: 300;
+    }
+}
