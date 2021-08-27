@@ -4,7 +4,7 @@
 
 ## Live Demo
 
-Quick preview: 
+Quick preview: <https://seytechschool.github.io/team-4-grad-project/>
 
 ## Best team members
 
