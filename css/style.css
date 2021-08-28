@@ -1,392 +1,395 @@
 body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Lato', sans-serif;
-  }
-  
-  p {
-    font-family: 'Montserrat', sans-serif;
-  }
-  
-  /* Tashtan------------------------------------------------------ */
-  
-  .header {
-    display: flex;
-    justify-content: space-between;
-    margin: 10px;
-  
-  }
-  
-  .header a {
-    text-decoration: none;
-    color: black;
-    font-size: 30px;
-    /* font-weight: bold; */
-    /* margin: 10px; */
-    margin-left: 10%;
-  }
-  
-  .sign-in {
-    background-color: #007bff;
-    width: 100px;
-    /* margin: 10px; */
-    margin-right: 10%;
-    border-radius: 5px;
-    color: white;
-    font-size: 20px;
-    padding: 10px;
-  
-  }
-  
-  .sign-in:hover {
-    cursor: pointer;
-    background-color: rgb(16, 87, 163);
-  }
-  
-  .sign-up:hover {
-    cursor: pointer;
-    background-color: rgb(16, 87, 163);
-  }
-  
-  .main1 {
-    background-image: linear-gradient(rgba(126, 126, 126, 0.4), rgba(0, 0, 0, 0.4)), url(https://learn.seytech.co/assets/projects/html-css/projects/3-landing/img/bg-masthead.jpg);
-    background-size: cover;
-    background-position: center;
-    min-height: 70vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-  
-  .main1 h1 {
-    color: white;
-    font-size: 60px;
-  
-  }
-  
-  input,
-  button {
-    padding: 10px 15px;
-    border-radius: 5px;
-    font-size: 20px;
-    border: none;
-  
-  }
-  
-  input {
-    width: 400px;
-  }
-  
-  button {
-    background-color: #007bff;
-    color: white;
-  }
-  
-  .main-2 {
-    display: flex;
-    flex: 1 0 100%;
-    justify-content: center;
-    width: 100%;
-    height: 60vh;
-    box-sizing: border-box;
-    /* margin: 40px; */
-    text-align: center;
-    align-items: center;
-    background-color: #f8f9fa;
-  }
-  
-  .top-icon {
-    margin: 20px;
-  }
-  
-  p {
-    font-size: 20px;
-  }
-  
-  .bi:hover {
-    width: 90px;
-  }
-  
-  /* Yulia------------------------------------------------------ */
-  .text h2 {
-    font-size: 50px;
-    font-weight: bolder;
-    margin: 0;
-  }
-  
-  .text,
-  .top-icon,
-  .person p {
-    line-height: 1.5;
-    color: rgb(75, 74, 74);
-  }
-  
-  .row img {
-    height: 100%;
-    width: 100%;
-  }
-  
-  .person img {
-    border-radius: 50%;
-    width: 200px;
-  }
-  
-  .row {
-    display: flex;
-  }
-  
-  .box {
-    width: 50%;
-    box-sizing: border-box;
-  }
-  
-  div .container {
-    margin: 0;
-  }
-  
-  .person {
-    margin: 40px;
-    width: 100%;
-  }
-  
-  
-  .text {
-    padding: 70px;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column;
-    box-sizing: border-box;
-  }
-  
-  /* 
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Tashtan------------------------------------------------------ */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+
+}
+
+.header a {
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  /* margin: 10px; */
+  margin-left: 10%;
+}
+
+.sign-in {
+  background-color: #007bff;
+  width: 100px;
+  /* margin: 10px; */
+  margin-right: 10%;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+
+}
+
+.sign-in:hover {
+  cursor: pointer;
+  background-color: rgb(16, 87, 163);
+}
+
+.sign-up:hover {
+  cursor: pointer;
+  background-color: rgb(16, 87, 163);
+}
+
+.main1 {
+  background-image: linear-gradient(rgba(126, 126, 126, 0.4), rgba(0, 0, 0, 0.4)), url(https://learn.seytech.co/assets/projects/html-css/projects/3-landing/img/bg-masthead.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.main1 h1 {
+  color: white;
+  font-size: 60px;
+
+}
+
+input,
+button {
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 20px;
+  border: none;
+
+}
+
+input {
+  width: 400px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+}
+
+.main-2 {
+  display: flex;
+  flex: 1 0 100%;
+  justify-content: center;
+  width: 100%;
+  height: 60vh;
+  box-sizing: border-box;
+  /* margin: 40px; */
+  text-align: center;
+  align-items: center;
+  background-color: #f8f9fa;
+}
+
+.top-icon {
+  margin: 20px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.bi:hover {
+  width: 90px;
+}
+
+/* Yulia------------------------------------------------------ */
+.text h2 {
+  font-size: 50px;
+  font-weight: bolder;
+  margin: 0;
+}
+
+.text,
+.top-icon,
+.person p {
+  line-height: 1.5;
+  color: rgb(75, 74, 74);
+}
+
+.row img {
+  height: 100%;
+  width: 100%;
+}
+
+.person img {
+  border-radius: 50%;
+  width: 200px;
+}
+
+.row {
+  display: flex;
+}
+
+.box {
+  width: 50%;
+  box-sizing: border-box;
+}
+
+div .container {
+  margin: 0;
+}
+
+.person {
+  margin: 40px;
+  width: 100%;
+}
+
+
+.text {
+  padding: 70px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+/* 
   .reviews h2 {
     display: block;
     margin: 20px auto;
     min-width: 355px;
   } */
-  .wrapper-reviews {
-    background-color: #f8f9fa;
-    padding: 100px;
-  }
-  
-  .reviews {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    text-align: center;
-  }
-  
-  /* img {
+.wrapper-reviews {
+  background-color: #f8f9fa;
+  padding: 100px;
+}
+
+.reviews {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+/* img {
     width: 100%;
   } */
-  
-  .center {
-    margin: 20px auto;
-    width: 500px;
-    font-size: 40px;
+
+.center {
+  margin: 20px auto;
+  width: 500px;
+  font-size: 40px;
+}
+
+
+/* Aiperi   ---------------------------------------------- */
+
+.wrapper {
+  font-family: 'Lato', sans-serif;
+}
+
+.bottom-container h1 {
+
+  font-size: 35px;
+  color: white;
+}
+
+.bottom-container {
+  background-image: linear-gradient(rgba(126, 126, 126, 0.4), rgba(0, 0, 0, 0.4)), url(https://learn.seytech.co/assets/projects/html-css/projects/3-landing/img/bg-masthead.jpg);
+  background-position: center;
+  background-size: cover;
+  min-height: 35vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom-input,
+.bottom-button {
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 30px;
+  text-decoration: none;
+}
+
+li a {
+  margin: 20px;
+}
+
+.bottom-input {
+  width: 400px;
+}
+
+.bottom-button {
+  width: 150px;
+  background-color: #007bff;
+  color: white;
+  margin-left: 10px;
+}
+
+.bottom-container a:hover {
+  background-color: #0054ad;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 60px;
+}
+
+.left-footer {
+  margin-right: 25%;
+}
+
+.ul-footer li {
+  display: inline-block;
+  margin: 0;
+  font-size: 20px;
+}
+
+.ul-footer {
+  margin: 0;
+  list-style-type: none;
+  padding: 0;
+}
+
+.ul-footer a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.ul-footer a:hover {
+  text-decoration: underline;
+  color: #0054ad;
+}
+
+.footer p {
+  color: gray;
+  margin-left: 15px;
+}
+
+.icon {
+  color: #007bff;
+  font-size: 40px;
+  margin-left: 25px;
+  margin-top: 0;
+}
+
+a:hover .icon {
+  color: #0054ad;
+}
+
+/*************TABLET*****************/
+
+@media screen and (max-width: 992px) {
+  .main1 h1 {
+    font-size: 30px;
+    margin: 30px;
+    margin-bottom: 50px;
   }
-  
-  
-  /* Aiperi   ---------------------------------------------- */
-  
-  .wrapper {
-    font-family: 'Lato', sans-serif;
-  }
-  
-  .bottom-container h1 {
-  
-    font-size: 35px;
-    color: white;
-  }
-  
-  .bottom-container {
-    background-image: linear-gradient(rgba(126, 126, 126, 0.4), rgba(0, 0, 0, 0.4)), url(https://learn.seytech.co/assets/projects/html-css/projects/3-landing/img/bg-masthead.jpg);
-    background-position: center;
-    background-size: cover;
-    min-height: 35vh;
-    display: flex;
+
+  .main-2 {
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    min-height: 900px;
+
   }
-  
-  .bottom-input,
-  .bottom-button {
-    padding: 10px 20px;
-    font-size: 20px;
-    border-radius: 5px;
-    border: none;
-    margin-bottom: 30px;
-    text-decoration: none;
+
+  .row {
+    flex-direction: column;
   }
-  li a {
-    margin: 20px;
+
+  .box {
+    width: 100%;
   }
-  .bottom-input {
-    width: 400px;
+
+  .text {
+    order: 2;
   }
-  
-  .bottom-button {
-    width: 150px;
-    background-color: #007bff;
-    color: white;
-    margin-left: 10px;
+
+  .reviews {
+    flex-direction: column;
+    width: 100%;
   }
-  
-  .bottom-container a:hover{
-    background-color: #0054ad;
+
+  .review-top h2 {
+    text-align: center;
+    font-size: 25px;
+    width: fit-content;
   }
-  
+
+  .person {
+    margin: 0;
+  }
+
   .footer {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    padding: 60px;
+    flex-direction: column;
+    text-align: center;
   }
-  
-  .left-footer {
-    margin-right: 25%;
+
+  .left-footer,
+  .right-footer {
+    width: 100%;
+
   }
-  
-  .ul-footer li {
-    display: inline-block;
-    margin: 0;
-    font-size: 20px;
+}
+
+
+
+/*******MOBILE**************/
+
+@media screen and (max-width: 650px) {
+
+  .main1 input,
+  button {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
   }
-  
-  .ul-footer {
-    margin: 0;
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .ul-footer a {
-    text-decoration: none;
-    color: #007bff;
-  }
-  
-  .ul-footer a:hover {
-    text-decoration: underline;
-    color: #0054ad;
-  }
-  
-  .footer p {
-    color: gray;
-    margin-left: 15px;
-  }
-  
-  .icon {
-    color: #007bff;
-    font-size: 40px;
-    margin-left: 25px;
-    margin-top: 0;
-  }
-  
-  a:hover .icon {
-    color: #0054ad;
-  }
-  
-  /*************TABLET*****************/
-  
-  @media screen and (max-width: 992px) {
-    .main1 h1 {
-        font-size: 30px;
-        margin: 30px;
-        margin-bottom: 50px;
-    }
-  
-    .main-2 {
-        flex-direction: column;
-        min-height: 900px;
-  
-    }
-  
-    .row {
-        flex-direction: column;
-    }
-  
-    .box {
-        width: 100%;
-    }
-  
-    .text {
-        order: 2;
-    }
-  
-    .reviews {
-        flex-direction: column;
-        width: 100%;
-    }
-  
-    .review-top h2 {
-        text-align: center;
-        font-size: 25px;
-        width: fit-content;
-    }
-  
-    .person {
-        margin: 0;
-    }
-  
-    .footer {
-        flex-direction: column;
-        text-align: center;
-    }
-  
-    .left-footer,
-    .right-footer {
-        width: 100%;
-  
-    }
-  }
-  
-  
-  
-  /*******MOBILE**************/
-  
-  @media screen and (max-width: 650px) {
-  
-    .main1 input,
-    button {
-        width: 100%;
-        display: block;
-        box-sizing: border-box;
-    }
-  
-    /* .main1 button {
+
+  /* .main1 button {
         width: 380px;
     } */
-    .sign-up {
-        padding: 10px 30px;
-        width: 350px;
-        margin: 0;
-        margin-top: 5px;
-    }
-  
-   .bottom-input,
-    .bottom-button {
-        width: 400px;
-        display: block;
-        box-sizing: border-box;
-        margin: 5px;
-        margin: auto;
-      
-    }
-    .bottom-container {
-      align-items:unset;
-      text-align: center;
-    }
-    
-    .footer li {
-        font-size: 12px;
-  
-    }
-  
-    .main1,
-    .bottom-container {
-        padding-bottom: 60px;
-    }
+  .sign-up {
+    padding: 10px 30px;
+    width: 350px;
+    margin: 0;
+    margin-top: 5px;
   }
+
+  .bottom-input,
+  .bottom-button {
+    width: 400px;
+    display: block;
+    box-sizing: border-box;
+    margin: 5px;
+    margin: auto;
+
+  }
+
+  .bottom-container {
+    align-items: unset;
+    text-align: center;
+  }
+
+  .footer li {
+    font-size: 12px;
+
+  }
+
+  .main1,
+  .bottom-container {
+    padding-bottom: 60px;
+  }
+}
