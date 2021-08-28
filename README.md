@@ -4,7 +4,7 @@
 
 ## Live Demo
 
-Quick preview: <https://seytechschool.github.io/team-4-grad-project/>
+Quick preview: <https://codepen.io/Karabalaeva/pen/mdwyobx>
 
 ## Best team members
 
